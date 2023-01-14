@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css"/>
+		<title>Snake Game</title>
+	</head>
+	<body>
+		<canvas class="gameBoard" id="gameBoard" width = "400" height = "460"></canvas>
+		<button class="resetButton" id="resetButton" style=" background-color: yellowgreen; color: red;" hidden onclick="location.reload();"> Restart Game </button>
+		<button id="backToGamePlatform" hidden style="background-color: blue; border-radius: 30px;" onclick="window.history.go(-1)"> Back To Game Platform </button>
+		<script type="text/javascript" src="gamePlay.js"></script>
+	</body>
+</html>

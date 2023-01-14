@@ -1,0 +1,21 @@
+
+	body {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+ 	.gameBoard {
+		margin: 20px;
+  		border: solid black 2px;
+  		border-radius: 5px;
+
+  		box-shadow: blue 20px 10px 50px;
+	}
+
+	.resetButton, .backToGamePlatform {
+		margin: 10px;
+  		border: solid black 1px;
+  		border-radius: 90px;
+	}

@@ -1,0 +1,24 @@
+<html lang="en">
+  	<head>
+		<title>Hangman</title>
+  	</head>
+	<body class="text-center" onload="paint();">
+		<center>
+			<div><h1>Hangman Game</h1></div>
+			<div id="alphabet" class="alphabetBox" style="display:inline;"></div>
+			<div>
+				<br><a id="hint" style="opacity: 0.5;"></a><br>
+				<canvas width="500" height="300" id="canvas"></canvas><br>
+				<div class="popup"><strong id="myPopup" style="font-size: 2.5em;"></strong></div>
+				<h2><em id="lines"></em></h2>
+				<a id="livesLeft" style="opacity: 0.5;"></a>
+			</div>
+			<br>
+       			<button id="resetButton" onclick="location.reload();" hidden style="background-color: greenyellow; border-radius: 30px;"> Restart Game </button>
+				<button id="backToGamePlatform" hidden style="background-color: blue; border-radius: 30px;" onclick="window.history.go(-1)"> Back To Game Platform </button>
+		</center>	
+	</body>
+	<script src="hangman.array.js"></script>
+	<script src="hangman.main.js"></script>
+	<script src="hangman.canvas.js"></script>
+</html>

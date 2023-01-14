@@ -1,0 +1,16 @@
+<html lang="en">
+  	<head>
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+  	</head>
+	<body align="center">
+		<h1>Tic <em>Tac</em> Toe</h1><br>
+		<h1 id="popArea" style="color: red;"></h1>
+		<div id="grid" class="grid"></div>
+		<div id="resetButtonArea">
+			<button id="resetButton" onclick="location.reload();" hidden style="background-color: greenyellow; border-radius: 30px;"> Restart Game </button>
+			<button id="backToGamePlatform" hidden style="background-color: blue; border-radius: 30px;" onclick="window.history.go(-1)"> Back To Game Platform </button>
+		</div>
+		<script src="tictactoe.js"></script>
+	</body>
+</html>
